@@ -106,7 +106,7 @@ const TodoList: React.FC = () => {
               {todo.status === 'Completed' && todo.completedAt && (
                 <>
                   <span className="mx-2">|</span>
-                  เสร็จสิน: {new Date(todo.completedAt).toLocaleString()}
+                  เสร็จสิ้น: {new Date(todo.completedAt).toLocaleString()}
                 </>
               )}
             </div>
@@ -117,4 +117,4 @@ const TodoList: React.FC = () => {
   );
 };
 
-export default TodoList;
+export default TodoList; 
